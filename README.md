@@ -21,13 +21,8 @@ Run the following commands:
  
   (generates schema in the database)
   
-  
- 2) mvn jooq-codegen:generate
- 
-  (generates Active record classes for db tables)
 
-
- 3) mvn clean install && exec:java
+ 2) mvn clean install && mvn exec:java
  
   (installs the dependencies and plugins and start the http server)
   
