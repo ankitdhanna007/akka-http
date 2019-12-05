@@ -16,13 +16,19 @@ Step 2
 
 Run the following commands:
 
-> mvn initialize flyway:migrate
+
+ 1) mvn initialize flyway:migrate
+ 
   (generates schema in the database)
   
-> mvn jooq-codegen:generate
+  
+ 2) mvn jooq-codegen:generate
+ 
   (generates Active record classes for db tables)
 
-> mvn clean install && exec:java
+
+ 3) mvn clean install && exec:java
+ 
   (installs the dependencies and plugins and start the http server)
   
   
