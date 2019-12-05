@@ -4,7 +4,7 @@ Requirements to run the application:
  Maven
  mySQL
 
-=============================
+===============================================
 
 Step 1
 
