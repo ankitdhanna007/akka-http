@@ -1,7 +1,9 @@
 Requirements to run the application:
 
  Java 8
+ 
  Maven
+ 
  mySQL
 
 ===============================================
