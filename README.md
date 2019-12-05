@@ -1,12 +1,17 @@
 Requirements to run the application:
-> Java 8
-> Maven
-> mySQL
+
+ Java 8
+ Maven
+ mySQL
+
+=============================
 
 Step 1
+
 Clone the repository and edit /src/main/resources/flyway.properties to fill database credentials and schema
 
 Step 2 
+
 Run the following commands:
 
 > mvn initialize flyway:migrate
@@ -20,6 +25,7 @@ Run the following commands:
   
   
 Step3
+
 To test, trigger the following curl commands:
 
 curl -H "Content-type: application/json" -X POST -d '{"user_id": 12,"product_id": 319890}' http://localhost:8080/orders
